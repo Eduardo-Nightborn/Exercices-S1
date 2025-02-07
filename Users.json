@@ -1,0 +1,31 @@
+[
+    {
+      "userId": 1,
+      "firstName": "David",
+      "lastName": "Leclerq",
+      "email": "david.leclerq@nightborn.com",
+      "role": "Administrator"
+    },
+    {
+      "userId": 2,
+      "firstName": "Matthieu",
+      "lastName": "Bocquet",
+      "email": "bob.martin@nightborn.com",
+      "role": "Administrator"
+    },
+    {
+      "userId": 3,
+      "firstName": "Sharon",
+      "lastName": "Dupont",
+      "email": "sharon.dupont@nightborn.com",
+      "role": "Regular User"
+    },
+    {
+      "userId": 4,
+      "firstName": "Lisa",
+      "lastName": "De Groof",
+      "email": "lisa.degroof@nightborn.com",
+      "role": "Administrator"
+    }
+  ]
+  

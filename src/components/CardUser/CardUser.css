@@ -1,0 +1,40 @@
+.containerCardUser{
+display: flex;
+flex-direction: row;
+padding: 10px;
+margin: 10px;
+justify-content: space-between;
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px 3px #efefef;
+cursor: pointer;
+}
+.containerCardUser:hover{
+    box-shadow: 2px 5px #e6e5e5 ;
+    transition: all 0.3s ease;
+}
+.containerFR{
+display: flex;
+flex-direction: column;
+margin: 10px;
+margin-right: 60px;
+width: 75%;
+}
+
+.buttonCardItem{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    margin-left: 30px;
+}
+.cardTextName{
+    font-size: medium;
+}
+.cardTextRole{
+    font-size: x-small;
+    color: #7F85A2;
+}
+.buttonCardItemImg:hover{
+    cursor: pointer;
+}

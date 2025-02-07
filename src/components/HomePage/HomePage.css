@@ -1,0 +1,54 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:#F7F7F7 ;
+    width: 100%;
+    padding-top: 3%;
+}
+.containerHeaderHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.addNewUserBTN{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0px 20px;
+    border-radius:15px ;
+    background-color: white;
+    height: 50%;
+    cursor: pointer;
+}
+.addNewUserBTN:hover{
+    box-shadow: 2px 5px #e6e5e5 ;
+    transition: all 0.3s ease;
+}
+.btnTextUser{
+    margin-left: 10px;
+}
+.containerText{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 25%;
+}
+.h1Home{
+    font-size: larger;
+    padding: 5%;
+}
+.btnHomeContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    margin-bottom: 5%;
+}

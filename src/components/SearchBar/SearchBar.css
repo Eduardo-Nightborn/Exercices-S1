@@ -1,0 +1,23 @@
+.containerSearchBar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    padding-left: 15px ;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+.containerSearchBar:hover{
+    box-shadow: 2px 5px #e6e5e5 ;
+    transition: all 0.3s ease;
+}
+.inputSearch{
+    border: none;
+    margin-left: 1%;
+    padding: 15px;
+}
+.inputSearch:focus{
+    outline: none;
+    border: none;
+}

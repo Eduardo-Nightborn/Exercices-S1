@@ -1,0 +1,44 @@
+.headUserContainer{
+    display: flex;
+    flex-direction:  row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3%;
+    margin:0px 20px ;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.containerTxtImg{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-between;
+    width: 22%;
+}
+
+.arrowIcon{
+    transform: rotate(180deg);
+}
+
+.textHeader{
+    font-size: medium;
+    margin: 3%;
+}
+.addBtn{
+    display: flex;
+    margin-right: 3%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#52D8B0 ;
+    color: white;
+    font-size: smaller;
+    cursor: pointer;
+}
+.addBtn:hover{
+    box-shadow: 2px 5px #e6e5e5 ;
+    transition: all 0.3s ease;
+}
